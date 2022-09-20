@@ -1,0 +1,16 @@
+@import '/src/scss/constants.scss';
+
+.navigationContainer{
+    display:flex;
+    justify-content:space-between;
+    margin: $marginMedium;
+    font-family: Oswald;
+}
+#burger-icon{
+    width: $burgerMenuIconWidth;
+}
+.leftNavSide{
+    display:flex;
+    flex-direction: column;
+    font-size:$navigationFontSize;
+}

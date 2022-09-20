@@ -1,0 +1,45 @@
+@import '/src/scss/constants.scss';
+
+.portraitWithTextContainer{
+    font-family:'Bebas Neue';
+}
+.personalNameContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    width:100%;
+    font-size: $personalNameFontSize;
+    color: $personalNameFontColor;
+    span{
+        line-height: $portraitWithTextLineHeight;
+        text-align: left;
+    }
+    .personalNameFirst{
+        margin-right:$marginSmall;
+    }
+}
+.personalNameWebContainer{
+    color:$personalNameWebFontColor;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-right: $marginSmall;
+    margin-top:$marginSmall;
+    span{
+        line-height: $portraitWithTextLineHeight;
+    }
+    .personalNameWebFirst{
+        font-size:$personalNameWebFirstFontSize;
+        text-align:left;
+        line-height:$portraitWithTextWebLineHeight;
+    }
+    .personalNameWebSecond{
+        text-align:left;
+        font-size:$personalNameWebSecondFontSize;
+    }
+}
+
+#profilePictureOne{
+    position:relative;
+    top:-100px;
+}
