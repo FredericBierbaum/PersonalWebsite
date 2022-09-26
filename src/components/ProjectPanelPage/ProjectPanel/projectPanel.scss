@@ -1,0 +1,64 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+
+.panelBlueLine{
+    border: 1px solid #B7D7FB;
+    width: 99%;
+    margin:0;
+   margin-bottom:$marginTiny;
+}
+.projectPanelContainer{
+    display:flex;
+    flex-direction:column;
+    width:$projectPanelWidth;
+    float: right;
+    margin-right:$marginMedium;
+    height:$projectPanelHeight;
+    background: linear-gradient(to bottom, #B7D7FB 50%, $primaryBackgroundColor 50%);
+    transition: all .5s ease-out;
+    background-position: bottom left;
+    background-size: 100% 200%;
+    margin-bottom: $marginSmall;
+}
+.projectPanelContainer:hover{
+    background-position:top left;
+}
+.projectPanelName{
+    font-family: Oswald;
+    font-size: $projectPanelNameFontSize;
+    color:#2E3141;
+    font-weight: 500;
+}
+
+.projectPanelDate{
+    display:flex;
+    flex-direction: column;
+    font-family: Oswald;
+    font-style: normal;
+    font-size:$projectPanelDateFontSize;
+    color:#2E3141;
+    font-weight:300;
+}
+
+.projectPanelInformationContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+@include media('>=tablet', '<=desktop'){
+    .projectPanelContainer{
+        width:70%;
+        margin-left: 22%;
+        margin-right:$marginLarge;
+    }
+}
+
+@include media('>=desktop'){
+    .projectPanelContainer{
+        width:60%;
+        float:right;
+        margin-left:22%;
+    }
+}

@@ -1,0 +1,17 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+
+.projectPanelPageHeader{
+    font-family:'Bebas Neue';
+    font-size: $projectPanelPageHeader;
+    color:#2E3141;
+    margin-left: $marginMedium;
+    margin-bottom: $marginMedium;
+}
+
+@include media('>=tablet'){
+    .projectPanelPageContainer{
+        display:flex;
+        flex-direction:column;
+    }
+}

@@ -1,0 +1,42 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+
+.aboutMePageHeader{
+    font-family:'Bebas Neue';
+    color:#2E3141;
+    font-size:$aboutMePageHeader;
+    margin-left:$marginMedium;
+    margin-bottom:$marginSmall;
+}
+
+.aboutMePageContent{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin-left:$marginMedium;
+    margin-right:$marginLarge;
+    width:$aboutMePageContentWidth;
+}
+
+#profilePictureSecond{
+    position:relative;
+    top: 4px;
+    left:0px;
+    width:400px;
+}
+
+@include media('>=tablet'){
+   .aboutMePageContent{
+    width:$aboutMePageContentWidth * 2.7;
+   }
+   .aboutMePageContentAndPictureContainer{
+    display:flex;
+    flex-direction: row;
+}
+   #profilePictureSecond{
+    left:-6%;
+    top:-0px;
+    margin:0;
+    padding:0;
+   }
+}
+

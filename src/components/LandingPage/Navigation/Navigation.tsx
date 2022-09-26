@@ -12,6 +12,12 @@ export default function Navigation() {
                 Located in Hamburg
             </span>
         </div>
+        <div className="navigation">
+          <span>Home</span>
+          <span>Work</span>
+          <span>About</span>
+          <span>Contact</span>
+        </div>
         <img id='burger-icon' src={BurgerIcon}/>
     </div>
   )

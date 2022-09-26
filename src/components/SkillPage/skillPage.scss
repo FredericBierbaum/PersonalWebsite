@@ -1,0 +1,17 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+.skillPageContainer{
+    width:100%;
+    background-color:$personalNameFontColor;
+    box-shadow: 10px 4px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.skillPageHeader{
+    font-size:$projectPanelPageHeader;
+    color:$skillPageFont;
+    margin-left:$marginMedium;
+    font-family: 'Bebas Neue';
+    margin-top:$marginMedium;
+    margin-bottom: $marginMedium;
+}
+

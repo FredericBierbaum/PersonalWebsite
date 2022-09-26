@@ -1,7 +1,10 @@
 @import '/src/scss/constants.scss';
+@import'/src/scss/config.scss';
+
 
 .portraitWithTextContainer{
     font-family:'Bebas Neue';
+    height:580px;
 }
 .personalNameContainer{
     display:flex;
@@ -42,4 +45,95 @@
 #profilePictureOne{
     position:relative;
     top:-100px;
+    width:370px;
+}
+
+
+@include media('>=tablet','<=desktop'){
+    .personalNameContainer{
+        margin-left:$marginLarge *1.4;
+    }
+    #profilePictureOne{
+        top:-346px;
+    }
+
+}
+@include media('>=tablet'){
+    #profilePictureOne{
+        width:510px;
+    }
+    .personalNameContainer{
+        flex-direction:row;
+        font-size:$personalNameFontSize *1.2;
+    }
+    .personalNameWebFirst{
+        font-size:$personalNameWebFirstFontSize * 1.8 !important;
+    }
+    .personalNameWebSecond{
+        font-size:$personalNameWebSecondFontSize * 1.8 !important;
+    }
+    .personalNameWebContainer{
+        float:right;
+        margin-right:$marginLarge;
+        margin-top:$marginMedium;
+        span{
+            line-height:$portraitWithTextWebLineHeight*3.8;
+        }
+    }
+}
+
+
+@include media('>=desktop', '<=desktopLarge'){
+    .personalNameContainer{
+        margin-left:$marginLarge *2.4;
+    }
+    #profilePictureOne{
+        position:absolute;
+        top:100px;
+    }
+
+    .personalNameWebContainer{
+        position:relative;
+        left:-22%;
+    }
+}
+@include media('>=desktopLarge', '<=desktopUltra'){
+    .personalNameContainer{
+        margin-left:$marginLarge *2.4;
+    }
+    #profilePictureOne{
+        position:absolute;
+        top:100px;
+    }
+
+    .personalNameWebContainer{
+        position:relative;
+        left:-40%;
+    }
+}
+@include media('>=desktopUltra'){
+    .personalNameContainer{
+        margin-left:$marginLarge *2.4;
+        font-size:$personalNameFontSize * 1.4;
+    }
+    #profilePictureOne{
+        position:absolute;
+        top:100px;
+    }
+
+    .personalNameWebContainer{
+        position:relative;
+        left:-50%;
+        margin-top:$marginLarge *1.0 !important ;
+        span{
+            line-height:$portraitWithTextWebLineHeight*4.3;
+        }
+    }
+    .personalNameWebFirst{
+        font-size:$personalNameWebFirstFontSize * 2.2 !important;
+    }
+    .personalNameWebSecond{
+        font-size:$personalNameWebSecondFontSize * 2.2 !important;
+    }
+    
 }

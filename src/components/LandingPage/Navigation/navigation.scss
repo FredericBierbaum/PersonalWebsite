@@ -1,4 +1,5 @@
 @import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
 
 .navigationContainer{
     display:flex;
@@ -13,4 +14,21 @@
     display:flex;
     flex-direction: column;
     font-size:$navigationFontSize;
+}
+.navigation{
+    display:none;
+}
+
+@include media('>=tablet'){
+    #burger-icon{
+        display:none;
+    }
+    .navigation{
+        display:flex;
+        width:30%;
+        justify-content:space-around;
+    }
+    .navigationContainer{
+        margin-bottom: $marginLarge;
+    }
 }

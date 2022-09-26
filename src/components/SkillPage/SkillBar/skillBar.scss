@@ -1,0 +1,36 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+
+.skillBarContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: $marginSmall;
+}
+
+.skillName{
+    font-family:Oswald;
+    font-weight: 300;
+    font-size:$skillNameFontSize;
+    color:$skillPageFont;
+    line-height: 23.71px;
+    margin-left:$marginSmall;
+}
+.skillBar{
+    width: 200px;
+    height:12px;
+    border-radius:30px;
+    background: linear-gradient(to left, $skillPageFont 100%, $primaryBlue 0%);
+    margin-right:$marginSmall;
+}
+
+@include media('>=tablet','<desktop'){
+    .skillName{
+        margin-left: 20%;
+        font-size:$skillNameFontSize *1.4
+    }
+    .skillBar{
+        width:400px;
+        margin-right:10%;
+    }
+}

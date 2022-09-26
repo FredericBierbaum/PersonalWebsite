@@ -1,4 +1,7 @@
+
+
 //Margins
+$marginTiny:10px;
 $marginSmall: 20px;
 $marginMedium: 40px;
 $marginLarge: 60px;
@@ -8,15 +11,26 @@ $paddingMedium:40px;
 $paddingLarge:60px;
 //Font Sizes
 $navigationFontSize:12px;
+$skillNameFontSize:20px;
+$projectPanelNameFontSize:20px;
 $personalNameFontSize:87px;
 $personalNameWebFirstFontSize:52px;
 $personalNameWebSecondFontSize:74px;
+$projectPanelPageHeader:64px;
+$projectPanelDateFontSize:16px;
+$aboutMePageHeader:64px;
 //Widths
 $burgerMenuIconWidth: 32px;
+$projectPanelWidth:269px;
+$aboutMePageContentWidth:241px;
+//Heights+
+$projectPanelHeight:130px;
 //Colors
+$primaryBlue:#8CC2FF;
 $primaryBackgroundColor: #F5F4FF;
 $personalNameFontColor: #2E3141;
 $personalNameWebFontColor:#384964;
+$skillPageFont:#F4F3FF;
 //LineHeight
 $portraitWithTextLineHeight:70px;
 $portraitWithTextWebLineHeight:40px;
