@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.e615f750.css",
-    "main.js": "/personalwebsite/static/js/main.b2568ce0.js",
-    "static/js/787.bbe01249.chunk.js": "/personalwebsite/static/js/787.bbe01249.chunk.js",
-    "static/media/fbBild.png": "/personalwebsite/static/media/fbBild.885e1e4d64b4f5f538c8.png",
-    "index.html": "/personalwebsite/index.html",
-    "static/media/icons8-menü-100.svg": "/personalwebsite/static/media/icons8-menü-100.2d136292432d553bff09fd06adaaffc4.svg",
-    "main.e615f750.css.map": "/personalwebsite/static/css/main.e615f750.css.map",
-    "main.b2568ce0.js.map": "/personalwebsite/static/js/main.b2568ce0.js.map",
-    "787.bbe01249.chunk.js.map": "/personalwebsite/static/js/787.bbe01249.chunk.js.map"
+    "main.css": "/PersonalWebsite/static/css/main.e615f750.css",
+    "main.js": "/PersonalWebsite/static/js/main.3fb47c03.js",
+    "static/js/787.bbe01249.chunk.js": "/PersonalWebsite/static/js/787.bbe01249.chunk.js",
+    "static/media/fbBild.png": "/PersonalWebsite/static/media/fbBild.885e1e4d64b4f5f538c8.png",
+    "index.html": "/PersonalWebsite/index.html",
+    "static/media/icons8-menü-100.svg": "/PersonalWebsite/static/media/icons8-menü-100.2d136292432d553bff09fd06adaaffc4.svg",
+    "main.e615f750.css.map": "/PersonalWebsite/static/css/main.e615f750.css.map",
+    "main.3fb47c03.js.map": "/PersonalWebsite/static/js/main.3fb47c03.js.map",
+    "787.bbe01249.chunk.js.map": "/PersonalWebsite/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e615f750.css",
-    "static/js/main.b2568ce0.js"
+    "static/js/main.3fb47c03.js"
   ]
 }
