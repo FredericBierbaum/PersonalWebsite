@@ -16,6 +16,7 @@
     font-size:$navigationFontSize;
 }
 .navigation{
+    
     display:none;
 }
 
@@ -27,6 +28,7 @@
         display:flex;
         width:30%;
         justify-content:space-around;
+        
     }
     .navigationContainer{
         margin-bottom: $marginLarge;

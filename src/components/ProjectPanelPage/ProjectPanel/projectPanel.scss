@@ -2,7 +2,9 @@
 @import '/src/scss/config.scss';
 
 .panelBlueLine{
-    border: 1px solid #B7D7FB;
+    border: none;
+    background-color:#b7d7fb;
+    height:2px;
     width: 99%;
     margin:0;
    margin-bottom:$marginTiny;

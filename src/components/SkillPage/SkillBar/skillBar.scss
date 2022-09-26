@@ -5,7 +5,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: $marginSmall;
+    margin-bottom: $marginMedium;
 }
 
 .skillName{
@@ -24,13 +24,34 @@
     margin-right:$marginSmall;
 }
 
-@include media('>=tablet','<desktop'){
+@include media('>=tablet'){
     .skillName{
-        margin-left: 20%;
+        margin-left: 2%;
         font-size:$skillNameFontSize *1.4
     }
     .skillBar{
-        width:400px;
         margin-right:10%;
+    }
+}
+
+@include media('>=tablet', '<=desktop'){
+    .skillBar{
+        width:450px;
+    }
+}
+@include media('>=desktop', '<=desktopLarge'){
+    .skillBar{
+        width:650px;
+    }
+}
+
+@include media('>=desktopLarge', '<=desktopUltra'){
+    .skillBar{
+        width:1000px;
+    }
+}
+@include media('>=desktopUltra'){
+    .skillBar{
+        width:1400px;
     }
 }
