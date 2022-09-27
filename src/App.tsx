@@ -9,10 +9,14 @@ import SkillPage from "./components/SkillPage/SkillPage";
 function App() {
 	return (
 		<div className="appContainer">
+			<a id="homesection"></a>
 			<LandingPage />
+			<a id="worksection"></a>
 			<ProjectPanelPage />
+			<a id="aboutmesection"></a>
 			<AboutMePage />
 			<SkillPage />
+			<a id="contactsection"></a>
 			<ContactPage />
 		</div>
 	);

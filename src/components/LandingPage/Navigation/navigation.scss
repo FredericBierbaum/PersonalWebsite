@@ -4,8 +4,17 @@
 .navigationContainer{
     display:flex;
     justify-content:space-between;
-    margin: $marginMedium;
+    
+    margin-right:$marginLarge *2;
     font-family: Oswald;
+    color:$personalNameFontColor;
+    position:fixed;
+    z-index:100;
+    width:100%;
+    height:120px;
+    background-color:$primaryBackgroundColor;
+    align-items:center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #burger-icon{
     width: $burgerMenuIconWidth;
@@ -14,15 +23,23 @@
     display:flex;
     flex-direction: column;
     font-size:$navigationFontSize;
+    margin-left:$marginMedium;
 }
 .navigation{
     
     display:none;
 }
-
+.burgerIconContainer{
+    cursor:pointer;
+    
+    margin-right: $marginMedium;
+}
 @include media('>=tablet'){
-    #burger-icon{
-        display:none;
+    .burgerIconContainer{
+        display:none !important;
+    }
+    .mobileMenuContainer{
+        display:none !important;
     }
     .navigation{
         display:flex;
@@ -33,4 +50,61 @@
     .navigationContainer{
         margin-bottom: $marginLarge;
     }
+}
+
+
+.navigationElement{
+    text-decoration:none;
+    color:$personalNameFontColor;
+}
+
+
+.burgerIconContainer.closed{
+    display:block;
+}
+.burgerIconContainer.open{
+    display:block;
+}
+
+.mobileMenu.open{
+    display:flex;
+    flex-direction: column;   
+    margin-right:$marginSmall;
+    margin-top:$marginMedium*1.2;
+
+    width:120%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.mobileMenu.closed{
+    display:none
+}
+.navigationElementMobile{
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width:100%;
+    height:40px;
+    margin-bottom:$marginSmall *0.5;
+   text-align: center;
+   display:flex;
+   align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.closeButton{
+    cursor:pointer;
+    font-weight:200;
+}
+
+.mobileMenuContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.mobileMenuContainer.open{
+    margin-top:$marginLarge *4.2;
 }

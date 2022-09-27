@@ -2,3 +2,31 @@
     display:flex;
     flex-direction: column;
 }
+
+#worksection{
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#aboutmesection{
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#contactsection{
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+#homesection{
+    display: block;
+    position: relative;
+    top: -1800px;
+    visibility: hidden;
+}
+
