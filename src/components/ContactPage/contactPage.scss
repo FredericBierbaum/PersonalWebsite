@@ -1,0 +1,51 @@
+@import '/src/scss/constants.scss';
+@import '/src/scss/config.scss';
+
+.contactPageContainer{
+    height:900px;
+    font-family:'Oswald';
+    margin-top:$marginLarge;
+}
+
+.contactPageHeader{
+    font-weight:200;
+    font-size: 30px;
+    margin-left:$marginLarge;
+    color:$personalNameFontColor;
+    width:70%;
+    margin-bottom:$marginLarge;
+}
+.contactPageInformationContainer{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.contactPageElement{
+    text-align: center;
+    margin-bottom:$marginSmall * 0.6;
+    border: 2px solid $contactPageElementColor;
+    width:200px;
+    border-radius: 15px;
+    font-weight:300;
+    font-size:20px;
+    color: $personalNameFontColor;
+    text-decoration: none;
+}
+
+@include media('>=tablet'){
+    .contactPageHeader{
+        font-size:64px;
+        margin-bottom:$marginLarge *2;
+    }
+    .contactPageContainer{
+        margin-top:$marginLarge *2;
+    }
+    .contactPageElement{
+        font-size:43px;
+        width:60%;
+        margin-bottom:$marginSmall *2;
+    }
+}

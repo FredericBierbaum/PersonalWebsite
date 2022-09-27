@@ -47,7 +47,16 @@
     top:-100px;
     width:370px;
 }
-
+@include media('<=tablet'){
+    .portraitWithTextInfoContainer{
+       display:flex;
+       align-items:center;
+       flex-direction:column;
+    }
+    .personalNameContainer{
+        margin-right:$marginSmall *0.2;
+    }
+}
 
 @include media('>=tablet','<=desktop'){
     .personalNameContainer{
