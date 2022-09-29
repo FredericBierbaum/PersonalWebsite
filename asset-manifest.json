@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.c6937f02.css",
-    "main.js": "/PersonalWebsite/static/js/main.1f21603b.js",
+    "main.css": "/PersonalWebsite/static/css/main.512f57bf.css",
+    "main.js": "/PersonalWebsite/static/js/main.bcf8531d.js",
     "static/js/787.bbe01249.chunk.js": "/PersonalWebsite/static/js/787.bbe01249.chunk.js",
     "static/media/Driftmaster_3.png": "/PersonalWebsite/static/media/Driftmaster_3.5a4e640c36e79c11f2f5.png",
     "static/media/Driftmaster_4.png": "/PersonalWebsite/static/media/Driftmaster_4.b80b6099fb61eba5e6b6.png",
@@ -11,12 +11,12 @@
     "static/media/pictureBierbaum_02.png": "/PersonalWebsite/static/media/pictureBierbaum_02.78c69171550e11a0a841.png",
     "index.html": "/PersonalWebsite/index.html",
     "static/media/icons8-menü-100.svg": "/PersonalWebsite/static/media/icons8-menü-100.2d136292432d553bff09fd06adaaffc4.svg",
-    "main.c6937f02.css.map": "/PersonalWebsite/static/css/main.c6937f02.css.map",
-    "main.1f21603b.js.map": "/PersonalWebsite/static/js/main.1f21603b.js.map",
+    "main.512f57bf.css.map": "/PersonalWebsite/static/css/main.512f57bf.css.map",
+    "main.bcf8531d.js.map": "/PersonalWebsite/static/js/main.bcf8531d.js.map",
     "787.bbe01249.chunk.js.map": "/PersonalWebsite/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6937f02.css",
-    "static/js/main.1f21603b.js"
+    "static/css/main.512f57bf.css",
+    "static/js/main.bcf8531d.js"
   ]
 }
