@@ -1,0 +1,19 @@
+@import "/src/scss/constants.scss";
+@import "/src/scss/config.scss";
+
+.projectPageHeader {
+  font-size: 64px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $personalNameFontColor;
+}
+.projectPageContainer {
+  margin-left: $marginMedium;
+}
+
+.projectPageInformationContainer {
+  width: 60%;
+  font-size: 30px;
+  margin-top:$marginLarge;
+}
