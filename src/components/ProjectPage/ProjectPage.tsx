@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projectPage.scss";
 
 interface Props {
@@ -9,6 +9,15 @@ interface Props {
 	img3?: string;
 }
 function ProjectPage(props: Props) {
+	useEffect(() => {
+		setTimeout(function () {
+			var scrollPos =
+				window.pageYOffset ||
+				document.documentElement.scrollTop ||
+				document.body.scrollTop;
+			window.scrollTo(0, 1);
+		}, 0);
+	});
 	return (
 		<div className="projectPageContainer">
 			<div className="projectPagePlaceholder" />
