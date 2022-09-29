@@ -7,13 +7,62 @@
   text-transform: uppercase;
   font-weight: 600;
   color: $personalNameFontColor;
+  margin-left: $marginMedium;
 }
-.projectPageContainer {
+.projectPageInformationContainer {
+  width: 80%;
+  font-size: 20px;
+  font-family: "Oswald";
+  font-weight: 300;
+  margin-top:$marginLarge;
   margin-left: $marginMedium;
 }
 
-.projectPageInformationContainer {
-  width: 60%;
-  font-size: 30px;
+.projectPagePlaceholder{
+  width:100%;
+  height:120px;
+}
+
+.projectPageImageContainer{
   margin-top:$marginLarge;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
+
+.projectPageImage{
+  width:430px;
+  margin-bottom:$marginLarge;
+}
+
+@include media('>=tablet', '<=desktop'){
+  .projectPageImage{
+    width:750px;
+  }
+  .projectPageInformationContainer{
+    font-size:24px;
+    width:70%;
+  }
+}
+
+@include media('>=desktop', '<=desktopLarge'){
+  .projectPageImage{
+    width:950px;
+  }
+  .projectPageInformationContainer{
+    font-size:28px;
+    width:60%;
+  }
+}
+
+@include media('>=desktopLarge'){
+  .projectPageImage{
+    width:1400px;
+  }
+  .projectPageInformationContainer{
+    font-size:30px;
+    width:60%;
+  }
 }

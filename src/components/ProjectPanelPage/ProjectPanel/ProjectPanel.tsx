@@ -7,7 +7,7 @@ interface Props {
 	projectDefinition: string;
     description:string;
 	goToProjectPage:Function;
-    img1?:string;
+    img1:string;
     img2?:string;
     img3?: string;
 }
@@ -15,7 +15,7 @@ interface Props {
 function ProjectPanel(props: Props) {
 	useState(0);
 	return (
-		<div onClick={()=>props.goToProjectPage(props.projectName, props.description)} className="projectPanelContainer">
+		<div onClick={()=>props.goToProjectPage(props.projectName, props.description,props.img1,props.img2,props.img3)} className="projectPanelContainer">
 			<hr className="panelBlueLine"></hr>
 			<div className="projectPanelInformationContainer">
 				<div className="projectPanelName">{props.projectName}</div>
