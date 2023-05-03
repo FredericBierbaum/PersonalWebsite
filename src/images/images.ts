@@ -9,6 +9,7 @@ import PictureBierbaum02 from "./pictureBierbaum_02.png";
 import GithubPicture from "./github.png";
 import LinkedinPicture from "./linkedin.png";
 import EmailPicture from "./email.png";
+import NodeEnergy01 from "./Node_Energy_01.png";
 
 export {
 	BurgerIcon,
@@ -22,4 +23,5 @@ export {
 	LinkedinPicture,
 	GithubPicture,
 	EmailPicture,
+	NodeEnergy01
 };

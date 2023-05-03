@@ -22,3 +22,9 @@ export const descriptionRedBull =
 	"We used this information to calculate points which were then displayed live on tv. " +
 	"I travelled with a small team to Riga where we set up the technology and made sure everything was working right. " +
 	"I assisted also by coding helper tools with React/Typescript.";
+
+export const descriptionNodeEnergy =
+"Während meiner siebenmonatigen Tätigkeit als Freelancer bei Node Energy hatte ich die Gelegenheit, an der Entwicklung eines innovativen Energiemanagement-Tools mitzuwirken. Dieses Tool ermöglicht es den Benutzern, Daten zu visualisieren, Rechnungen zu erstellen, Zählerstände einzusehen und einen umfassenden Überblick über ihre Energieliegenschaften zu erhalten."+
+"Meine Hauptaufgabe bestand in der Frontend-Entwicklung mit React und TypeScript. Dabei legte ich großen Wert auf sauberen und effizienten Code sowie auf eine benutzerfreundliche, ansprechende Oberfläche. Zur Sicherstellung der Qualität und Funktionalität des Codes führte ich Tests mit Jest und Enzyme durch."+
+"Zusätzlich zur Frontend-Entwicklung war ich auch an der Backend-Programmierung beteiligt, wobei ich Python und das Django-Framework verwendete. In diesem Bereich konzentrierte ich mich auf die Implementierung von APIs und die Integration von Datenbanken, um eine reibungslose Kommunikation zwischen Frontend und Backend zu gewährleisten."+
+"Insgesamt trug meine Arbeit bei Node Energy dazu bei, ein leistungsstarkes und benutzerfreundliches Energiemanagement-Tool zu entwickeln, das den Benutzern hilft, ihre Energiekosten besser zu überwachen und Energieeffizienzmaßnahmen effektiver umzusetzen."
