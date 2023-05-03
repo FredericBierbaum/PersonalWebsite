@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.512f57bf.css",
-    "main.js": "/PersonalWebsite/static/js/main.bcf8531d.js",
+    "main.css": "/PersonalWebsite/static/css/main.26d33517.css",
+    "main.js": "/PersonalWebsite/static/js/main.61899bbf.js",
     "static/js/787.bbe01249.chunk.js": "/PersonalWebsite/static/js/787.bbe01249.chunk.js",
     "static/media/Driftmaster_3.png": "/PersonalWebsite/static/media/Driftmaster_3.5a4e640c36e79c11f2f5.png",
     "static/media/Driftmaster_4.png": "/PersonalWebsite/static/media/Driftmaster_4.b80b6099fb61eba5e6b6.png",
     "static/media/fbBild.png": "/PersonalWebsite/static/media/fbBild.885e1e4d64b4f5f538c8.png",
+    "static/media/Node_Energy_01.png": "/PersonalWebsite/static/media/Node_Energy_01.74056400c1f854af9475.png",
     "static/media/pictureBierbaum_01.jpeg": "/PersonalWebsite/static/media/pictureBierbaum_01.786f6224ba91f96c815b.jpeg",
     "static/media/Multi_DFL.png": "/PersonalWebsite/static/media/Multi_DFL.fed0b1148918f6eab661.png",
     "static/media/pictureBierbaum_02.png": "/PersonalWebsite/static/media/pictureBierbaum_02.78c69171550e11a0a841.png",
     "index.html": "/PersonalWebsite/index.html",
     "static/media/icons8-menü-100.svg": "/PersonalWebsite/static/media/icons8-menü-100.2d136292432d553bff09fd06adaaffc4.svg",
-    "main.512f57bf.css.map": "/PersonalWebsite/static/css/main.512f57bf.css.map",
-    "main.bcf8531d.js.map": "/PersonalWebsite/static/js/main.bcf8531d.js.map",
+    "main.26d33517.css.map": "/PersonalWebsite/static/css/main.26d33517.css.map",
+    "main.61899bbf.js.map": "/PersonalWebsite/static/js/main.61899bbf.js.map",
     "787.bbe01249.chunk.js.map": "/PersonalWebsite/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.512f57bf.css",
-    "static/js/main.bcf8531d.js"
+    "static/css/main.26d33517.css",
+    "static/js/main.61899bbf.js"
   ]
 }
