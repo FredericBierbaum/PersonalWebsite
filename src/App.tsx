@@ -6,7 +6,7 @@ import MainContent from "./components/MainContent/MainContent";
 function App() {
   return (
     <div className="appContainer">
-      <BrowserRouter>
+      <BrowserRouter basename="PersonalWebsite">
         <Navigation />
         <MainContent />
       </BrowserRouter>
