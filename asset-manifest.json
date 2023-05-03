@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.26d33517.css",
+    "main.css": "/PersonalWebsite/static/css/main.df45d0a6.css",
     "main.js": "/PersonalWebsite/static/js/main.bc793ab4.js",
     "static/js/787.bbe01249.chunk.js": "/PersonalWebsite/static/js/787.bbe01249.chunk.js",
     "static/media/Driftmaster_3.png": "/PersonalWebsite/static/media/Driftmaster_3.5a4e640c36e79c11f2f5.png",
@@ -12,12 +12,12 @@
     "static/media/pictureBierbaum_02.png": "/PersonalWebsite/static/media/pictureBierbaum_02.78c69171550e11a0a841.png",
     "index.html": "/PersonalWebsite/index.html",
     "static/media/icons8-menü-100.svg": "/PersonalWebsite/static/media/icons8-menü-100.2d136292432d553bff09fd06adaaffc4.svg",
-    "main.26d33517.css.map": "/PersonalWebsite/static/css/main.26d33517.css.map",
+    "main.df45d0a6.css.map": "/PersonalWebsite/static/css/main.df45d0a6.css.map",
     "main.bc793ab4.js.map": "/PersonalWebsite/static/js/main.bc793ab4.js.map",
     "787.bbe01249.chunk.js.map": "/PersonalWebsite/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d33517.css",
+    "static/css/main.df45d0a6.css",
     "static/js/main.bc793ab4.js"
   ]
 }
