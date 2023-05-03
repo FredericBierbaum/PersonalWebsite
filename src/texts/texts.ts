@@ -24,7 +24,7 @@ export const descriptionRedBull =
 	"I assisted also by coding helper tools with React/Typescript.";
 
 export const descriptionNodeEnergy =
-"During my eight-month tenure as a freelancer at Node Energy, I had the opportunity to contribute to the development of an innovative energy management tool. This tool enables users to visualize data, generate invoices, view meter readings, and gain a comprehensive overview of their energy properties."+
+"During my seven-month tenure as a freelancer at Node Energy, I had the opportunity to contribute to the development of an innovative energy management tool. This tool enables users to visualize data, generate invoices, view meter readings, and gain a comprehensive overview of their energy properties."+
 "My primary responsibility involved frontend development using React and TypeScript. I placed great emphasis on clean and efficient code, as well as a user-friendly and visually appealing interface. To ensure the quality and functionality of the code, I performed tests using Jest and Enzyme."+
 "In addition to frontend development, I also participated in backend programming, utilizing Python and the Django framework. In this area, I focused on implementing APIs and integrating databases to ensure seamless communication between the frontend and backend."+
 "Overall, my work at Node Energy contributed to the development of a powerful and user-friendly energy management tool that assists users in better monitoring their energy costs and implementing energy efficiency measures more effectively."
