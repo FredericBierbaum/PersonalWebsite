@@ -1,81 +1,91 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./navigation.scss";
 import { BurgerIcon, CloseButton } from "../../../images/images";
 
-interface Props {
-	goBackToHome?: Function;
-}
-export default function Navigation(props: Props) {
-	const [status, setStatus] = useState("closed");
-	return (
-		<div className="navigationContainer">
-			<div className="leftNavSide">
-				<span>Frederic Bierbaum</span>
-				<span>Located in Hamburg</span>
-			</div>
-			<div
-				className="navigation"
-				onClick={() => {
-					props.goBackToHome && props.goBackToHome();
-				}}
-			>
-				<a href="#homesection" className="navigationElement">
-					Home
-				</a>
-				<a href="#worksection" className="navigationElement">
-					Work
-				</a>
-				<a href="#aboutmesection" className="navigationElement">
-					About
-				</a>
-				<a href="#contactsection" className="navigationElement">
-					Contact
-				</a>
-			</div>
-			<div className={"mobileMenuContainer " + status}>
-				<div
-					onClick={() => {
-						status === "open" ? setStatus("closed") : setStatus("open");
-					}}
-					className={"burgerIconContainer " + status}
-				>
-					<img
-						id="burger-icon"
-						src={status === "open" ? CloseButton : BurgerIcon}
-					/>
-				</div>
-				<div
-					onClick={() => {
-						props.goBackToHome && props.goBackToHome();
-					}}
-					className={"mobileMenu " + status}
-				>
-					<a
-						href="#homesection"
-						className="navigationElement navigationElementMobile"
-					>
-						Home
-					</a>
-					<a
-						href="#worksection"
-						className="navigationElement navigationElementMobile"
-					>
-						Work
-					</a>
-					<a
-						href="#aboutmesection"
-						className="navigationElement navigationElementMobile"
-					>
-						About
-					</a>
-					<a
-						href="#contactsection"
-						className="navigationElement navigationElementMobile"
-					>
-						Contact
-					</a>
-				</div>
-			</div>
-		</div>
-	);
+export default function Navigation() {
+  const [status, setStatus] = useState("closed");
+
+  function closeMenu() {
+    setStatus("closed");
+  }
+
+  return (
+    <div className="navigationContainer">
+      <div className="leftNavSide">
+        <span>Frederic Bierbaum</span>
+        <span>Located in Hamburg</span>
+      </div>
+      <div className="navigation">
+        <NavLink to="/" className="navigationElement" onClick={closeMenu}>
+          Home
+        </NavLink>
+        <NavLink
+          to="/#worksection"
+          className="navigationElement"
+          onClick={closeMenu}
+        >
+          Work
+        </NavLink>
+        <NavLink
+          to="/#aboutmesection"
+          className="navigationElement"
+          onClick={closeMenu}
+        >
+          About
+        </NavLink>
+        <NavLink
+          to="/#contactsection"
+          className="navigationElement"
+          onClick={closeMenu}
+        >
+          Contact
+        </NavLink>
+      </div>
+      <div className={"mobileMenuContainer " + status}>
+        <div
+          onClick={() => {
+            status === "open" ? setStatus("closed") : setStatus("open");
+          }}
+          className={"burgerIconContainer " + status}
+        >
+          <img
+            alt="burger-icon"
+            id="burger-icon"
+            src={status === "open" ? CloseButton : BurgerIcon}
+          />
+        </div>
+        <div className={"mobileMenu " + status}>
+          <NavLink
+            to="/"
+            className="navigationElement navigationElementMobile"
+            onClick={closeMenu}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/#worksection"
+            className="navigationElement navigationElementMobile"
+            onClick={closeMenu}
+          >
+            Work
+          </NavLink>
+          <NavLink
+            to="/#aboutmesection"
+            className="navigationElement navigationElementMobile"
+            onClick={closeMenu}
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/#contactsection"
+            className="navigationElement navigationElementMobile"
+            onClick={closeMenu}
+          >
+            Contact
+          </NavLink>
+        </div>
+      </div>
+    </div>
+  );
 }

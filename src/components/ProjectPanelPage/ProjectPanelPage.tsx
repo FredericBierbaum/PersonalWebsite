@@ -1,18 +1,5 @@
-import React from "react";
 import ProjectPanel from "./ProjectPanel/ProjectPanel";
-import {
-  descriptionBierbaum,
-  descriptionDFL,
-  descriptionRedBull,
-} from "../../texts/texts";
 import "./projectPanelPage.scss";
-import {
-  DFLPicture,
-  DriftmastersPicture,
-  DriftmastersPicture02,
-  PictureBierbaum01,
-  PictureBierbaum02,
-} from "../../images/images";
 import { Link } from "react-router-dom";
 
 export default function ProjectPanelPage() {
@@ -27,9 +14,7 @@ export default function ProjectPanelPage() {
           projectDefinition="Energy Optimization"
           projectName="Bierbaum"
           year="2022"
-          description={descriptionBierbaum}
-          img1={PictureBierbaum01}
-          img2={PictureBierbaum02}
+          duration={3}
         />
       </Link>
       <Link
@@ -39,10 +24,8 @@ export default function ProjectPanelPage() {
         <ProjectPanel
           projectDefinition="Technical Operations"
           projectName="Red Bull"
-          year="2022"
-          description={descriptionRedBull}
-          img1={DriftmastersPicture}
-          img2={DriftmastersPicture02}
+          year="2020"
+          duration={6}
         />
       </Link>
       <Link
@@ -53,8 +36,7 @@ export default function ProjectPanelPage() {
           projectDefinition="MediaPlayer"
           projectName="DFL"
           year="2020"
-          description={descriptionDFL}
-          img1={DFLPicture}
+          duration={10}
         />
       </Link>
       <Link
@@ -65,8 +47,7 @@ export default function ProjectPanelPage() {
           projectName={"Node Energy"}
           year={"2022/2023"}
           projectDefinition={"Energy Management"}
-          description={""}
-          img1={""}
+          duration={7}
         />
       </Link>
     </div>

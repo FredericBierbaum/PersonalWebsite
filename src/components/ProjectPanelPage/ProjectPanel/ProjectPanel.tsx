@@ -5,10 +5,7 @@ interface Props {
   projectName: string;
   year: string;
   projectDefinition: string;
-  description: string;
-  img1: string;
-  img2?: string;
-  img3?: string;
+  duration: number;
 }
 
 function ProjectPanel(props: Props) {
@@ -19,7 +16,9 @@ function ProjectPanel(props: Props) {
         <div className="projectPanelName">{props.projectName}</div>
         <div className="projectPanelDate">
           <span>{props.projectDefinition} //</span>
-          <span>{props.year}</span>
+          <span className="projectPanelTimeText">
+            {props.year} | {props.duration} months
+          </span>
         </div>
       </div>
     </div>
